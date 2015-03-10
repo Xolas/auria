@@ -1,0 +1,16 @@
+/* 
+    Created on : Feb 17, 2015, 5:38:48 PM
+    Author     : nicholas
+*/
+
+.ui-menu {
+    background-color: #f1f1f1;
+    box-shadow: 1px 0px 9px rgba(0,0,0,0.2);
+}
+.ui-menu-group .ui-menu-header {
+    color: #79BF3F;
+    border-bottom:  1px solid rgba(0,0,0,0.2);
+}
+.ui-menu-scroller {
+    box-shadow: inset 0px -5px 5px rgba(0,0,0,0.1); 
+}

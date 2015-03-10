@@ -1,0 +1,97 @@
+/*
+    +==========================================================================+
+    |   Os estilos aqui definidos mudam o tema de cores e estilo geral do      |
+    | app Web Auria, qualquer mudança estrutural deve ser definida dentro da   |
+    | hierarquia "css/strucuture".                                             |
+    +==========================================================================+
+*/
+
+/*
+    Definir alguns atributos que possuem a propriedade de cascata:
+    1 - Familia de fonte que será usada
+*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+html {
+    font-family: "Quicksand","Open Sans",sans-serif;
+}
+
+/*
+    Definir Cor de fundo e do texto para o cabecalho principal 
+*/
+.auria-header {
+    background-color: #79BF3F;
+    color: white;
+}
+
+/*
+    Tamanho da fonte que será usada no logo
+*/
+.auria-logo {
+    font-size: 25pt;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+/*
+    Efeito de leve inclinação no logo
+*/
+.auria-logo img {
+    transition: 0.6s;
+    transform: rotate(-5deg);
+}
+
+.auria-header .auria-logo.hidden img {
+    transform: rotate(170deg);
+}
+
+.menu-header-logo-animation .auria-logo img {
+    transform: rotate(170deg);
+}
+.menu-header-logo-animation.hidden .auria-logo img {
+    transform: rotate(5deg);
+}
+/*
+    Estilo da "sombra" que é utilizada ao sobrepor janelas
+*/
+.auria-fade-background {
+    transition: 0.6s;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.15);
+}
+
+/*
+    Estilo e definição da animação do logo ao se abrir o menu principal
+*/
+.menu-header-logo-animation {
+    transition: 0.6s;
+    opacity: 1;
+    line-height: 50px;
+    color: #79BF3F;
+}
+
+/*
+    Estilo de uma caixa de texto
+*/
+.search-input {
+    border: 0;
+    border-bottom: 1px solid #79BF3F;
+    background: 0;
+    font-size: 12pt;
+    box-sizing: border-box;
+    color: #79BF3F;
+
+}
+
+/*
+    Definir cor padrão de textos usados como "placeholder" em caixas de texto
+*/
+::-webkit-input-placeholder {
+    color: #707070;
+}
+::-moz-placeholder { 
+    color: #707070;  
+}
+:-ms-input-placeholder {  
+    color: #707070;  
+}

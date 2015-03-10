@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<format>
+    
+    <number>
+	<decimal_separator>.</decimal_separator>
+	<thousand_separator></thousand_separator>
+    </number>
+    
+    <money>
+	<decimals>2</decimals>
+	<symbol>$</symbol>
+    </money>
+    
+    <date>
+	<format>m/d/y</format>
+    </date>
+    
+    <datetime>
+	<format>m/d/y h:i:s</format>
+    </datetime>
+</format>
